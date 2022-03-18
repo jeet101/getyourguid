@@ -1,0 +1,61 @@
+.nav_main {
+  display: flex;
+  height: 80px;
+  width: 87%;
+  border: 1px solid black;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_logo {
+  height: 5rem;
+  width: 7.5rem;
+}
+.nav_arrow {
+  width: 1.125rem;
+  height: 1.125rem;
+}
+.nav_li {
+  display: flex;
+  gap: 5px;
+}
+.nav_right {
+  display: flex;
+  gap: 25px;
+}
+.nav_icon {
+  margin-top: 1.25rem;
+}
+.nav_btn_signUp {
+  border-radius: 25px;
+  width: 115px;
+  height: 50px;
+  font-size: 17px;
+  background: rgb(97, 97, 224);
+  color: white;
+  border: none;
+}
+.nav_signUp button:hover  {
+  background: hsl(220, 49%, 38%);
+}
+
+.nav_select-language {
+  position: absolute;
+  margin-top: 50px;
+  box-shadow: 0 0 2px rgb(0 0 0 / 12%), 0 4px 24px rgb(0 0 0 / 16%);
+  width: 529px;
+  height: 400px;
+  left: 355px;
+  background: white;
+  border-radius: 18px;
+  display: none;
+  padding-left: 65px;
+}
+.nav_select-language-name {
+  display: flex;
+}
+.nav_li :hover ~ .nav_select-language {
+  display: block;
+}
